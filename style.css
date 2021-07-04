@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,400;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+html{
+    font-size: 52.6%;
+}
+.demo-portfolio{
+    width: 100%;
+    background-color: #000;
+}
+.header{
+    font-size: 3rem;
+    padding: 5% 8%;
+    
+}
+.header h1{
+    color: #3f3b3b;
+    text-shadow: 0.3rem 0.3rem 0.2rem #c5e3f6;
+}
+.header p{
+    //color:	hsl(0, 77%, 95%);
+    color: #3f3b3b;
+    text-shadow: 0.1rem 0.1rem 0.1rem #c5e3f6;
+}
+.menu ul{
+    display: flex;
+    //align-items: center;
+    //justify-content:center;
+    flex-wrap: wrap;
+    margin-top:2rem;
+}
+.menu ul h2{
+    margin-left:3%;
+    margin-right:25%;
+    //color:	hsl(0, 77%, 95%);
+    font-size: 3rem;
+    margin-top: 0.5rem;
+    //color: #3f3b3b;
+    //text-shadow: 0.3rem 0.3rem 0.2rem #c5e3f6;
+}
+.menu ul li{
+    list-style-type: none;
+    margin-top: rem;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size:2rem;    
+    padding: 0rem 0.8rem;
+    color:#dee1ec;	/* hsl(0, 77%, 95%); */
+}
+.menu ul button{
+    background-color: #3f3b3b;
+    margin-left:25%;
+    padding: .8rem 1.6rem;
+    font-size: 2.2rem;
+    color: #ffcef3;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem #c5e3f6;
+}
+.body .pic{
+    display: flex;
+    justify-content: center;
+}
+.body .pic .dream{
+    background:linear-gradient(to right, rgb(16, 141, 199), rgb(239, 142, 56));
+    width:35%;
+    border-radius: 5rem;
+    box-shadow: 0.8rem 0.8rem 2.5rem 0.8rem grey;
+    margin-right: 5%;
+    margin-bottom: 9%;
+}
+.body .pic .dream h2{
+    text-align: center;
+    font-size: 3rem;
+    padding: 0.5rem 2rem;
+    color: #c5e3f6;
+    margin-top: 3rem ;
+}
+.body .pic .dream p{
+    font-size: 1.5rem;
+    padding: 2rem 4rem;
+    text-align:justify;
+
+}
+.body .pic img{
+    /* drop-shadow: 1rem 1rem 1rem orange; */
+    margin-top: -3rem;
+}
+.body .experience {
+    background: linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100));
+    width: 90%;
+    height:90%;
+    margin: 5%;
+    display: grid;
+    //justify-content: center;
+    border-radius: 5rem;
+    box-shadow: 0.8rem 0.8rem 2.5rem 0.8rem #c5e3f6;
+}
+.body .experience h2 {
+    text-align: center;
+    font-size: 4rem;
+    padding: 2rem 4rem;
+    color: #c5e3f6;
+    margin-top: 5rem ;
+}
+.body .exp {
+    
+    display: flex;
+
+}
+.body .exp1 {
+    //background: #3d6cb9;
+    //background: #6c5fa7;
+    //background: linear-gradient(to right, rgb(51, 51, 51), rgb(221, 24, 24));
+    background: linear-gradient(to right, rgb(55, 59, 68), rgb(66, 134, 244));
+    width:40%;
+    margin: 5%;
+    border-radius: 5rem;
+    box-shadow: 0.5rem 0.5rem 1.5rem 0.5rem #000;
+    
+}
+.body .exp1 h3, h4{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    color: #e2f3f5;
+}
+.body .exp1 p{
+    font-size: 2rem;
+    padding: 6rem 8rem;
+    text-align:justify;
+}
+.body .exp2 {
+    //background: #a56cc1;
+    //background: #61305d;
+    background: linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83));
+    width: 40%;
+    margin: 5%;
+    border-radius: 5rem;
+    box-shadow: 0.5rem 0.5rem 1.5rem 0.5rem #000;
+}
+.body .exp2 h3, h4{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    color: #e2f3f5;
+}
+.body .exp2 p{
+    font-size: 2rem;
+    padding: 6rem 8rem;
+    text-align:justify;
+}
+.footer{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #c5e3f6;
+    padding: 1.5rem;
+    background: linear-gradient(to right, rgb(32, 1, 34), rgb(111, 0, 0));
+}
