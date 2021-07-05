@@ -29,19 +29,9 @@ html{
 }
 .menu ul{
     display: flex;
-    //align-items: center;
-    //justify-content:center;
+    margin-left: 37%;
     flex-wrap: wrap;
     margin-top:2rem;
-}
-.menu ul h2{
-    margin-left:3%;
-    margin-right:25%;
-    //color:	hsl(0, 77%, 95%);
-    font-size: 3rem;
-    margin-top: 0.5rem;
-    //color: #3f3b3b;
-    //text-shadow: 0.3rem 0.3rem 0.2rem #c5e3f6;
 }
 .menu ul li{
     list-style-type: none;
@@ -62,6 +52,13 @@ html{
     border-radius: 1rem;
     box-shadow: 0.5rem 0.5rem 0.5rem #c5e3f6;
 }
+.menu ul button:hover {
+    color: #3f3b3b;
+    background-color:#ffcef3;
+    box-shadow: 0.5rem 0.5rem 0.5rem gray;
+    transition: all 0.8s;
+}
+
 .body .pic{
     display: flex;
     justify-content: center;
@@ -70,9 +67,13 @@ html{
     background:linear-gradient(to right, rgb(16, 141, 199), rgb(239, 142, 56));
     width:35%;
     border-radius: 5rem;
-    box-shadow: 0.8rem 0.8rem 2.5rem 0.8rem grey;
+    //box-shadow: 0.8rem 0.8rem 1.5rem 0.8rem grey;
     margin-right: 5%;
     margin-bottom: 9%;
+}
+.body .pic .dream:hover {
+    box-shadow: 0.8rem 0.8rem 1.5rem 0.8rem grey;
+    transition: all 0.5s;
 }
 .body .pic .dream h2{
     text-align: center;
